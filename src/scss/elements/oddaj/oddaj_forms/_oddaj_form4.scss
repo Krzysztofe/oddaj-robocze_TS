@@ -1,0 +1,41 @@
+.form4__h3 {
+  font-weight: $semiBold;
+  margin-top: $space-large;
+  &:first-letter {
+    text-transform: uppercase;
+  }
+}
+
+.form4__inputContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+
+.form4__label {
+  text-align: right;
+  width: 35%;
+}
+
+.form4__input, .form4__textarea {
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid $color-grey-normal;
+  padding: 0.2em;
+  resize: none;
+}
+
+.form4__textarea{
+  font-family: $font-family-Open-Sans;
+}
+
+@include media {
+
+  .form4__leftContainer, .form4__rightContainer {
+    width: 50%;
+  }
+
+  .form4__h3{
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,13 @@
+.wrapper--footer {
+  background-color: $color-grey-normal;
+  padding: $space-small 0;
+}
+
+.footer__container {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.contact__logo + .contact__logo {
+  margin-left: 30px;
+}

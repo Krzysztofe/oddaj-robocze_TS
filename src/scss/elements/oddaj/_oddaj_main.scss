@@ -1,0 +1,15 @@
+@include media {
+  .wrapper--oddajMain {
+    background-image: url("../../../asets/Background-Form.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: $space-large * 2;
+  }
+}
+
+@include media__bigSize {
+  .wrapper--oddajMain {
+    background-image: url("../../../asets/Background-Form@2x.png");
+  }
+}

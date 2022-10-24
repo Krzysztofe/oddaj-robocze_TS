@@ -1,0 +1,130 @@
+{
+  "organisations": [
+    {
+      "id": 1,
+      "type": "fundacja",
+      "name": "1",
+      "goals": "eeeeeeeeeeeeeee",
+      "stuff": "ttt, ooo, uuu"
+    },
+    {
+      "id": 2,
+      "type": "fundacja",
+      "name": "2",
+      "goals": "eeeeeeeeeeeeeee",
+      "stuff": "ttt, ooo, uuu"
+    },
+    {
+      "id": 3,
+      "type": "fundacja",
+      "name": "3",
+      "goals": "eeeeeeeeeeeeeee",
+      "stuff": "ttt, ooo, uuu"
+    },
+    {
+      "id": 4,
+      "type": "fundacja",
+      "name": "4",
+      "goals": "eeeeeeeeeeeeeee",
+      "stuff": "ttt, ooo, uuu"
+    },
+    {
+      "id": 5,
+      "type": "fundacja",
+      "name": "5",
+      "goals": "eeeeeeeeeeeeeee",
+      "stuff": "ttt, ooo, uuu"
+    },
+    {
+      "id": 6,
+      "type": "fundacja",
+      "name": "6",
+      "goals": "eeeeeeeeeeeeeee",
+      "stuff": "ttt, ooo, uuu"
+    },
+    {
+      "id": 7,
+      "type": "fundacja",
+      "name": "7",
+      "goals": "eeeeeeeeeeeeeee",
+      "stuff": "ttt, ooo, uuu"
+    },
+    {
+      "id": 8,
+      "type": "fundacja",
+      "name": "8",
+      "goals": "eeeeeeeeeeeeeee",
+      "stuff": "ttt, ooo, uuu"
+    },
+    {
+      "id": 9,
+      "type": "fundacja",
+      "name": "9",
+      "goals": "eeeeeeeeeeeeeee",
+      "stuff": "ttt, ooo, uuu"
+    },
+    {
+      "id": 10,
+      "type": "ngo",
+      "name": "1",
+      "goals": "yyyyy",
+      "stuff": "xx, cc, ee"
+    },
+    {
+      "id": 11,
+      "type": "ngo",
+      "name": "2",
+      "goals": "yyyyy",
+      "stuff": "xx, cc, ee"
+    },
+    {
+      "id": 12,
+      "type": "ngo",
+      "name": "3",
+      "goals": "yyyyy",
+      "stuff": "xx, cc, ee"
+    },
+    {
+      "id": 13,
+      "type": "ngo",
+      "name": "4",
+      "goals": "yyyyy",
+      "stuff": "xx, cc, ee"
+    },
+    {
+      "id": 14,
+      "type": "ngo",
+      "name": "5",
+      "goals": "yyyyy",
+      "stuff": "xx, cc, ee"
+    },
+    {
+      "id": 15,
+      "type": "ngo",
+      "name": "6",
+      "goals": "yyyyy",
+      "stuff": "xx, cc, ee"
+    },
+    {
+      "id": 16,
+      "type": "collection",
+      "name": "1",
+      "goals": "yyyyy",
+      "stuff": "xx, cc, ee"
+    },
+    {
+      "id": 17,
+      "type": "collection",
+      "name": "2",
+      "goals": "yyyyy",
+      "stuff": "xx, cc, ee"
+    },
+    {
+      "id": 18,
+      "type": "collection",
+      "name": "3",
+      "goals": "yyyyy",
+      "stuff": "xx, cc, ee"
+    }
+  ]
+}

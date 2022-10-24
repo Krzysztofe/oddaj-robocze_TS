@@ -1,0 +1,56 @@
+@import 'nav_links';
+
+.navigation {
+  display: none;
+}
+
+.navigationMobile {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: $space-large;
+  background-color: $color-white;
+  z-index: 10;
+  box-shadow: 0px 6px 14px 1px $color-grey-normal;
+}
+
+.navigationMobile__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigationMobile__tshirt {
+  width: 3em;
+  background-color: white;
+  border-radius: 50%;
+  padding: 2px;
+  border: 1px solid $color-black;
+}
+
+.iconHamburger, .iconCross {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+@include media__navbar {
+  .wrapper--navigation {
+    padding: 0;
+  }
+
+  .navigation {
+    max-width: 1350px;
+    width: 100%;
+    background-color: $color-white;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: end;
+    padding: 0 $space-large;
+    z-index: 10;
+  }
+  .navigationMobile {
+    display: none;
+  }
+}

@@ -1,0 +1,98 @@
+.belt__empty {
+  height: 6em;
+}
+
+.summary__h3 {
+  font-weight: $semiBold;
+
+  &:first-letter {
+    text-transform: uppercase;
+  }
+}
+
+.summary__topContainer {
+  margin-top: $space-small;
+  display: flex;
+  align-items: center;
+}
+
+.summary__icon1 {
+  background-image: url("../../../../asets/IconTshirt.png");
+  background-size: cover;
+  width: 2em;
+  height: 2em;
+}
+
+.summary__icon2 {
+  background-image: url("../../../../asets/Icon.png");
+  background-size: cover;
+  width: 2em;
+  height: 2em
+}
+
+.summary__p {
+  width: 85%;
+  margin-left: 1em;
+
+  &:first-letter {
+    text-transform: uppercase;
+  }
+}
+
+.summary__tableLeft, .summary__tableRight {
+  margin-top: $space-small;
+}
+
+.summary__thead {
+  font-weight: $semiBold;
+
+  &:first-letter {
+    text-transform: uppercase;
+  }
+}
+
+.summary__td {
+  font-size: $font-size-small;
+  padding: $space-small 0 0 $space-large;
+
+  &:first-letter {
+    text-transform: uppercase;
+  }
+}
+
+.summary__td + .summary__td {
+  padding-left: 0;
+}
+
+@include media {
+  .belt__empty{
+    height: 4em;
+  }
+
+  .belt__empty + p {
+    opacity: 0;
+    padding-top: 1rem;
+  }
+
+  .summary__tables {
+    display: flex;
+    gap: 1em;
+    min-width: 480px;
+    width: 60%;
+  }
+
+  .summary__tableLeft, .summary__tableRight {
+    width: 45%;
+  }
+}
+
+@include media__bigSize {
+
+  .summary__icon1 {
+    background-image: url("../../../../asets/IconTshirt@2x.png");
+  }
+
+  .summary__icon2 {
+    background-image: url("../../../../asets/Icon@2x.png");
+  }
+}

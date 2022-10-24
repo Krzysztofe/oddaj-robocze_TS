@@ -1,0 +1,24 @@
+
+
+@include media {
+  .oddajForm2__inputs {
+    padding-bottom: 2rem;
+    margin: 0;
+    height: 50vh;
+  }
+
+  .oddajForm2__label {
+    margin-top: 0;
+    padding-top: 2em;
+    font-weight: $regular;
+  }
+
+  .oddajForm2__buttons {
+    width: 20%;
+    margin-top: auto;
+  }
+
+  .oddajForm__button--form2 {
+    width: 45%;
+  }
+}

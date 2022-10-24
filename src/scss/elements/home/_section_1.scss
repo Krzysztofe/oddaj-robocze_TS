@@ -1,0 +1,52 @@
+.wrapper--section-1 {
+  display: flex;
+  background-image: url("../../../asets/3 Columns Background.png");
+}
+
+.section-1__column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 0;
+}
+
+.section-1__number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: $semiBold;
+  font-size: $font-size-large;
+}
+
+.section-1__subtitle {
+  text-align: center;
+  line-height: 1.3;
+  margin: 1em 0 0.5em 0;
+  font-weight: $semiBold;
+
+  &::first-letter {
+    text-transform: uppercase;
+  }
+}
+
+.section-1__p {
+  display: none;
+}
+
+@include media {
+
+  .section-1__p {
+    display: block;
+    text-align: center;
+    font-size: $font-size-superSmall;
+    padding: 0 $space-small;
+  }
+}
+
+@include media__bigSize {
+  .wrapper--section-1 {
+    background-image: url("../../../asets/3 Columns Background@2x.png");
+  }
+}
+
+

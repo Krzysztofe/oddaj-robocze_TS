@@ -1,0 +1,36 @@
+.wrapper--belt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 6em;
+}
+
+.belt__h2 {
+  font-weight: $semiBold;
+
+  &:first-letter {
+    text-transform: uppercase;
+  }
+}
+
+.belt__p {
+  padding-top: $space-small;
+  font-size: $font-size-small;
+}
+
+@include media {
+  .wrapper--belt {
+    height: 4em;
+    background-color: $color-yellow;
+    padding: 0 $space-large * 2;
+  }
+
+  .belt__h2 {
+    font-size: $font-size-small;
+  }
+
+  .belt__p {
+    font-size: $font-size-superSmall;
+    padding-top: 0.3em;
+  }
+}

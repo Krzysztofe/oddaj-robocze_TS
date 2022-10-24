@@ -1,0 +1,14 @@
+@mixin media {
+  @media (min-width: 426px)
+  {@content}
+}
+
+@mixin media__navbar {
+  @media (min-width: 769px)
+  {@content}
+}
+
+@mixin media__bigSize {
+  @media (min-width: 1300px)
+  {@content}
+}

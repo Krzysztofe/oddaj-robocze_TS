@@ -1,0 +1,35 @@
+.oddajForm__inputs {
+  padding-bottom: $space-large;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+}
+
+.oddajForm1__input {
+  margin-top: $space-large;
+}
+
+.oddajForm1__radio {
+  width: 1.5em;
+  height: 1.5em;
+  border: 1px solid black;
+  margin-right: 2em;
+  -webkit-appearance: none;
+transition-duration: 320ms;
+  &:checked {
+    background-color: $color-yellow;
+  }
+}
+
+@include media {
+
+  .oddajForm__inputs {
+    height: 340px;
+  }
+}
+
+@media (min-width: 700px) {
+  .oddajForm__inputs {
+    min-height: 420px;
+  }
+}

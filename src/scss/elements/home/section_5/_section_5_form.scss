@@ -1,0 +1,80 @@
+.contactForm {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contactForm__inputContainer {
+  width: 100%;
+  margin-top: $space-large * 2;
+}
+
+.contactForm__input {
+  width: 100%;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid $color-grey-normal;
+  margin-top: $space-small;
+  resize: none;
+}
+
+input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+textarea::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+  font-family: $font-family-Open-Sans;
+}
+
+.contactForm__textInputErrors {
+  padding-top: $space-small;
+  color: #FF0000FF;
+  font-size: $font-size-small;
+  height: 2em;
+
+  &:first-letter {
+    text-transform: uppercase;
+  }
+}
+
+.contactForm__errorUnderline {
+  border-bottom: 1px solid #FF0000FF;
+}
+
+.btnLarge--cntactForm{
+  padding: $space-small 0;
+  width: 30%;
+  margin-left: auto;
+  margin-bottom: $space-large;
+}
+
+
+.fetchErrors {
+  color: #FF0000FF;
+}
+
+.fetchErrors__opacity{
+  opacity: 0;
+}
+
+@include media {
+
+  .contactForm {
+    padding: 0 $space-large;
+  }
+
+  .contactForm__inputContainer {
+    width: 45%;
+  }
+
+  .contactForm__inputContainer--textarea {
+    width: 100%;
+    margin-top: $space-large;
+  }
+
+  .btnLarge--cntactForm{
+    max-width: 200px;
+    width: 50%;
+  }
+}

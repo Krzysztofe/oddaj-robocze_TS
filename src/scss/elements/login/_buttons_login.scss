@@ -1,0 +1,23 @@
+.buttonsLogin {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonLogin {
+padding: $space-large $space-large*2;
+  font-weight: $semiBold;
+  &:first-letter{
+    text-transform: uppercase;
+  }
+  &:hover{
+    border: 1px solid $color-yellow;
+  }
+}
+
+@include media{
+  .buttonsLogin{
+    max-width: 400px;
+    width: 60%;
+  }
+}

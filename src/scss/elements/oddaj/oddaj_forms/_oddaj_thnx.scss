@@ -1,0 +1,29 @@
+.oddajForm__inputs--thnx {
+  justify-content: center;
+  align-items: center;
+}
+
+.ddajThanx__link{
+  width: 50%;
+  margin-top: $space-large *2;
+}
+
+.ddajThanx__button {
+  padding: $space-large 0;
+  width: 100%;
+  border: 1px solid black;
+  &:first-letter{
+    text-transform: uppercase;
+  }
+}
+
+@include media {
+  .oddajForm__inputs--thnx {
+    width: 60%;
+    justify-content: flex-start;
+  }
+
+  .oddajThnx__h2 {
+    font-size: clamp(1.5em, 3vw, 2em);
+  }
+}

@@ -1,0 +1,29 @@
+.formButtons{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: auto;
+}
+
+.formButton {
+  width: 30%;
+  background-color: $color-grey-normal;
+  padding: 0.5em 0;
+  &:first-letter{
+    text-transform: uppercase;
+  }
+  &:hover{
+    border: 1px solid $color-yellow;
+  }
+}
+@include media{
+  .formButtons{
+    width: 40%;
+  }
+  .formButton {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid black;
+    padding: 0.5em 0;
+    width: 45%;
+  }
+}

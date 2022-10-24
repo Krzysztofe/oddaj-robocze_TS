@@ -1,0 +1,25 @@
+:root {
+  font-family: $font-family-Open-Sans;
+  font-size: $font-size-middle;
+}
+
+button {
+  cursor: pointer;
+  background-color: $color-opacity;
+  border: 1px solid $color-grey-normal;
+  transition-duration: 350ms;
+  &:hover{
+    background-color: $color-yellow;
+  }
+}
+
+.btnLarge{
+  font-weight: $light;
+  text-transform: uppercase;
+  padding: $space-small 0;
+  font-size: $font-size-large;
+}
+
+input, textarea{
+  cursor: pointer;
+}

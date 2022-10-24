@@ -1,0 +1,54 @@
+.listItems {
+  margin-top: $space-large;
+}
+
+.link {
+  display: block;
+  text-decoration: none;
+  padding: $space-large;
+  font-weight: $semiBold;
+  color: $color-black;
+  transition-duration: 320ms;
+  &:hover {
+    background-color: $color-yellow;
+  }
+
+  &::first-letter {
+    text-transform: uppercase;
+  }
+}
+
+.logItems {
+  border-top: 1px solid black;
+}
+
+@include media__navbar {
+  .listItems {
+    display: flex;
+  }
+
+  .link{
+    padding: 0 0.4em;
+    &:hover{
+      background-color: $color-white;
+      outline: 1px solid $color-black;
+    }
+  }
+
+  .logItems {
+    display: flex;
+    border-top: none;
+    margin-top: $space-small;
+  }
+
+  .link--log{
+    font-size: $font-size-small;
+    &:hover{
+      background-color: $color-white;
+      outline: 1px solid $color-yellow;
+    }
+  }
+}
+
+
+

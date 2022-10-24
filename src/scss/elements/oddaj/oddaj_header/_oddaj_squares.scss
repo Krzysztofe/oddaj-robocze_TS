@@ -1,0 +1,74 @@
+.squares {
+  display: flex;
+  justify-content: space-around;
+  background-color: $color-white;
+  outline: 1em solid $color-white;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: $semiBold;
+  font-size: $font-size-small;
+  color: $color-white;
+  background-color: $color-grey-normal;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.square--BacgroundColor {
+  background-color: $color-yellow;
+}
+
+.square__p {
+  display: none;
+}
+
+@include media {
+  .squares {
+    margin: 0 auto;
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .square {
+    color: $color-black;
+    background-color: $color-opacity;
+    width: clamp(6em, 9vw, 85px);
+    height: clamp(6em, 9vw, 85px);
+    font-size: $font-size-superSmall;
+    position: relative;
+
+    &:last-child {
+      display: none;
+    }
+  }
+  .square__rectangle {
+    display: flex;
+    align-items: center;
+    border: 1px solid $color-black;
+    width: 100%;
+    height: 100%;
+    transform: rotate(45deg);
+    position: relative;
+  }
+
+  .square__h3 {
+    position: absolute;
+    left: 15%;
+    top: 8%;
+    transform: rotate(315deg);
+    text-align: center;
+  }
+
+  .square__p {
+    display: block;
+    text-align: center;
+    transform: rotate(315deg);
+
+    &:first-letter {
+      text-transform: uppercase;
+    }
+  }
+}

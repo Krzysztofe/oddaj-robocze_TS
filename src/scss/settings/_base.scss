@@ -1,0 +1,20 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: clamp(280px, 100%, 1350px);
+  padding: 0 $space-small;
+  margin: 0 auto;
+  line-height: 1.3;
+}
+
+.img{
+  max-width: 100%;
+}
+
+@include media{
+  .wrapper{
+    padding: 0 $space-large;
+  }
+}

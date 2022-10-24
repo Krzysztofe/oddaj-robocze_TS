@@ -1,0 +1,62 @@
+@import "section_4_table";
+
+.section4__loading {
+  font-size: $font-size-large;
+  margin: 2em 0;
+  text-align: center;
+
+  &:first-letter {
+    text-transform: uppercase;
+  }
+}
+
+.section-4__btns {
+  margin: 2em 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-4__btn {
+  background-color: $color-grey-normal;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  font-weight: $semiBold;
+  font-size: $font-size-small
+}
+
+.section-4__p {
+  text-align: center;
+  margin: 1em auto;
+  width: 90%;
+  height: 6em;
+}
+
+@include media {
+  .section-4__decoration {
+    background-size: 40%;
+  }
+
+  .section-4__btns {
+    align-items: center;
+    width: 50%;
+    margin: $space-large auto;
+  }
+
+  .section-4__btn {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+    height: 3em;
+    width: 32%;
+    border: none;
+
+    &:focus {
+      border: 1px solid $color-grey-normal;
+    }
+  }
+
+  .section-4__p {
+    width: 60%;
+    margin: 0 auto;
+  }
+}

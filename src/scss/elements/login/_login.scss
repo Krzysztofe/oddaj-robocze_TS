@@ -1,0 +1,41 @@
+.wrapper--login{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px
+}
+.login__underline{
+  width: 100%;
+}
+
+.login__inputs{
+  background-color: $color-grey-normal;
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+
+.login__label{
+  display: flex;
+  flex-direction: column;
+font-weight: $semiBold;
+}
+
+.login__label + .login__label{
+  margin-top: 2em;
+}
+
+.login__input{
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: rgba(0,0,0,0);
+}
+
+.login__errors{
+  height: 2em;
+&:first-letter{
+  text-transform: uppercase;
+}
+}
